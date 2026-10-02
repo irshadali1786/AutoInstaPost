@@ -35,6 +35,20 @@ No paid API anywhere in this workflow.
 3. Follow **SETUP.md** to connect all 6 services (credentials + env vars).
 4. Run once via **Manual Trigger (Test)** to verify end-to-end before activating the daily schedule.
 
+## 📸 Screenshots
+
+### n8n Workflow
+
+![n8n Workflow](screenshots/workflow.jpg)
+
+### Instagram Post
+
+![Instagram Post](screenshots/instagram_post.jpg)
+
+### Telegram Notification
+
+![Telegram Notification](screenshots/telegram.jpg)
+
 ## Architecture notes
 
 - **Duplicate-proof topics**: reads full post history from Google Sheets, asks Groq to avoid every past topic, retries up to 5x on collision, then falls back to a date-suffix to guarantee uniqueness.
