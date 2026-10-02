@@ -30,7 +30,7 @@ No paid API anywhere in this workflow.
 
 ## Import
 
-1. Download `AutoInstaPost_v2_production.json` from this repo.
+1. Download `AutoInstaPost.json` from this repo.
 2. n8n → **Workflows → Import from File**.
 3. Follow **SETUP.md** to connect all 6 services (credentials + env vars).
 4. Run once via **Manual Trigger (Test)** to verify end-to-end before activating the daily schedule.
